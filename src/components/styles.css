@@ -1,0 +1,62 @@
+.degree-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 420px;
+    height: 170px;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0 10px;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    color: rgb(225, 225, 225);
+}
+
+input{
+    height: 34px;
+    width: 100px;
+    border-radius: 0.3rem;
+    border: solid 1px rgb(225, 225, 225);
+}
+
+select{
+    height: 40px;
+    width: 160px;
+    border-radius: 0.3rem;
+    border: solid 1px rgb(225, 225, 225);
+    
+}
+
+h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+.results{
+    align-self: flex-start;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+.convert-button{
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(84, 159, 255);
+    border-radius: 0.5rem;
+    border: none;
+}
